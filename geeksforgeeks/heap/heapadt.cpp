@@ -151,6 +151,6 @@ int main()
 		int temp = minh.extractmin();
 		cout << temp << " ";
 	}
-
+	cout << INT_MAX;
 	return 0;
 }

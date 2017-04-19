@@ -186,6 +186,7 @@ Node* deletenode(Node* root, int dkey){
 			delete temp;
 		}
 
+		//case 3: two children | important
 		else
 		{
 			Node* temp = findmin(root->right);
